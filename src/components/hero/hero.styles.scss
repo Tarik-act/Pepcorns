@@ -1,0 +1,74 @@
+.hero-container {
+  padding: 2rem 0;
+
+  .hero-button-group {
+    Button:not(:last-child) {
+      margin-right: 0.5rem;
+    }
+  }
+
+  .hero-card {
+    padding: 2rem 0;
+
+    .card-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+
+      img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      }
+
+      .card-info {
+        h1 {
+          font-size: 3rem;
+          font-weight: 100;
+        }
+
+        .address {
+          color: #aeaeae;
+          font-weight: lighter;
+        }
+        .contact {
+          padding: 0.5rem 0;
+          span {
+            color: #2dce89;
+          }
+        }
+        .lead {
+          font-size: 0.8rem;
+        }
+      }
+
+      .card-links {
+        display: flex;
+        gap: 1rem;
+        font-size: 0.7rem;
+        letter-spacing: 2px;
+      }
+    }
+
+    .card-footer {
+      margin-top: 2rem;
+      padding: 0 3rem;
+      ul {
+        list-style: none;
+        font-size: 0.7rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        text-transform: uppercase;
+        font-weight: bold;
+
+        .active {
+          background-color: #fbdcda;
+          border-radius: 5px;
+          padding: 0.5rem 0.75rem;
+        }
+      }
+    }
+  }
+}
