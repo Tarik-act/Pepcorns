@@ -9,7 +9,9 @@ const Navigation = () => {
         <div className='nav-container'>
           <div className='logo'>-Dashboard</div>
           <div className='nav-link'>
-            <img src='../../assets/user.png' alt='profile' />
+            <div className='img'>
+              <i class='fa-solid fa-user'></i>
+            </div>
           </div>
         </div>
       </nav>

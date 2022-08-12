@@ -18,8 +18,26 @@ code {
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+  color: #000;
+}
 
 .container {
   max-width: 876px;
   margin: 0 auto;
+  main {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    margin: 0 1rem;
+    main {
+      display: block;
+    }
+  }
 }

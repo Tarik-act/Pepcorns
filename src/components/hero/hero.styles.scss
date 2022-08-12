@@ -72,3 +72,31 @@
     }
   }
 }
+
+@media (max-width: 900px) {
+  .hero-container {
+    .hero-card {
+      .card-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+      }
+    }
+    .hero-button-group {
+      text-align: center;
+
+      Button:not(:last-child) {
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+@media (max-width: 450px) {
+  .hero-container {
+    .hero-button-group {
+      Button {
+        font-size: 10px;
+      }
+    }
+  }
+}

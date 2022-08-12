@@ -1,0 +1,38 @@
+.frame-card {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  width: 500px;
+
+  iframe {
+    width: 100%;
+  }
+
+  .frame-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    padding: 1rem 0;
+
+    a {
+      color: rgb(0, 145, 194);
+      text-decoration: none;
+    }
+
+    .frame-link {
+      a {
+        margin: 0 0.5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .frame-card {
+    width: 100%;
+  }
+}
